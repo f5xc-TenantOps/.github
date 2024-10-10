@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/f5xc-TenantOps/.github/blob/main/xcTenantOps-logo.jpg?raw=true" height="256"/>
+  <img src="https://github.com/f5xc-TenantOps/.github/blob/main/xc-tops-logo-wide.jpg?raw=true" width="100%"/>
 </p>
 
 # F5 Distributed Cloud Tenant Operations
@@ -42,7 +42,7 @@ This includes demos, labs, reporting, and internal tenant operations used by F5e
 
 ## 🗂️ Repositories
 
-### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> f5xc-tops-py-client
+### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> [f5xc-tops-py-client](https://github.com/f5xc-TenantOps/f5xc-tops-py-client)
 Python library for interacting with the F5 Distributed Cloud API.
 
 ### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> f5xc-tops-py-common
