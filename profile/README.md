@@ -4,7 +4,7 @@
 
 # F5 Distributed Cloud Tenant Operations
 
-## 👋 About 
+## 👋 About
 This repository stores all tooling used to handle operations across a fleet of F5 Distributed Cloud tenants.
 This includes demos, labs, reporting, and internal tenant operations used by F5ers (and others) to learn about the platform.
 
@@ -36,9 +36,9 @@ This includes demos, labs, reporting, and internal tenant operations used by F5e
 </ul>
 
 ## 🏛️ Architecture
-- [] Component Arch
-- [] Event Flow
-- [] Log/reporting system
+- [ ] Component Arch
+- [ ] Event Flow
+- [ ] Log/reporting system
 
 ## 🗂️ Repositories
 
