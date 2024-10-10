@@ -26,7 +26,7 @@ This includes demos, labs, reporting, and internal tenant operations used by F5e
 <img src="https://www.crossplane.io/_next/static/media/icecream-icon.0e89f4c8.svg" alt="" height="25"/> [CrossPlane](https://www.crossplane.io)
 
 
-## 🤔 Philosophy
+## 🏛️ Philosophy
 <ul style="list-style-type:square">
     <li><b>All</b> infrastructure is expressed in code</li>
     <li>Infrastructure components are deployed using GitOps and continuous delivery principals</li>
@@ -35,12 +35,7 @@ This includes demos, labs, reporting, and internal tenant operations used by F5e
     <li>No bespoke components</li>
 </ul>
 
-## 🏛️ Architecture
-- [ ] Component Arch
-- [ ] Event Flow
-- [ ] Log/reporting system
-
-## 🗂️ Repositories
+## 🗂️ Core Repositories
 
 ### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> [f5xc-tops-py-client](https://github.com/f5xc-TenantOps/f5xc-tops-py-client)
 Python library for interacting with the F5 Distributed Cloud API.
@@ -66,3 +61,8 @@ Containers and Lambdas used for tenantOps jobs.
 
 ### <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="" height="25"/> f5xc-tops-dashboards
 Grafana dashboards and alerting components.
+
+## 🏗️ Architecture
+- [ ] Component Arch
+- [ ] Event Flow
+- [ ] Log/reporting system
