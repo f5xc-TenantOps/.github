@@ -11,7 +11,7 @@ This includes demos, labs, reporting, and internal tenant operations used by F5e
 ## 🌈 Contribution Guidelines
 <ul style="list-style-type:square">
     <li>Code updates must be made via PRs. Thou shalt not commit directly to <code>main</code>.</li>
-    <li>Use Github issues to request updates</li>
+    <li>Use Github issues to request updates and report bugs.</li>
     <li>Be nice ♥️</li>
 </ul>
 
@@ -42,26 +42,27 @@ This includes demos, labs, reporting, and internal tenant operations used by F5e
 
 ## 🗂️ Repositories
 
-### f5xc-py-client
+### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> f5xc-tops-py-client
 Python library for interacting with the F5 Distributed Cloud API.
 
-### f5xc-py-common
+### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> f5xc-tops-py-common
 Python library of common components used by workers. 
 This helps keep things DRY.
 
-### f5xc-tops-mgmt-cluster
+### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/d88b4e3b6e34a85f58778b7ef96e64edffff6823/logo/logo.svg" alt="" height="25"/> f5xc-tops-mgmt-cluster
 - [x] ArgoCD
 - [x] Crossplane
 - [x] Grafana stack - (grafana, prometheus, loki)
 
-Cluster Bootstrap (ArgoCD, secrets managment) and core components needed to deploy tenantOps cloud infra and jobs. 
+Cluster Bootstrap (ArgoCD, secrets managment) and core components needed to deploy tenantOps cloud infra and jobs.
+ArgoCD, once bootstrapped, deploys core components.
 
-### f5xc-tops-infra
+### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/d88b4e3b6e34a85f58778b7ef96e64edffff6823/logo/logo.svg" alt="" height="25"/> f5xc-tops-infra
 Repo container cloud infrastrucuture components (crossplane CRDs) and tenantOps infrastucture jobs (k8s jobs/crons).
 ArgoCD deploys these resources against the mgmt cluster.
 
-### f5xc-tops-job-workers
+### <img src="https://github.com/kubernetes/community/blob/master/icons/png/resources/unlabeled/pod-128.png?raw=true" alt="" height="25"/> f5xc-tops-job-workers
 Containers and Lambdas used for tenantOps jobs.
 
-### f5xc-tops-dashboards
+### <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="" height="25"/> f5xc-tops-dashboards
 Grafana dashboards and alerting components.
