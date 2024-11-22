@@ -53,7 +53,7 @@ Cluster Bootstrap (ArgoCD, secrets managment) and core components needed to depl
 ArgoCD, once bootstrapped, deploys core components.
 
 ### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/d88b4e3b6e34a85f58778b7ef96e64edffff6823/logo/logo.svg" alt="" height="25"/> f5xc-tops-infra
-Repo container cloud infrastrucuture components (crossplane CRDs) and tenantOps infrastucture jobs (k8s jobs/crons).
+Repo containing cloud infrastrucuture components (crossplane CRDs) and tenantOps infrastucture jobs (k8s jobs/crons).
 ArgoCD deploys these resources against the mgmt cluster.
 
 ### <img src="https://github.com/kubernetes/community/blob/master/icons/png/resources/unlabeled/pod-128.png?raw=true" alt="" height="25"/> f5xc-tops-job-workers
