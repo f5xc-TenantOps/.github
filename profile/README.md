@@ -40,7 +40,7 @@ This includes onboarding, maintenance, demos, labs, reporting, and other tenant 
 ### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> [f5xc-tops-py-client](https://github.com/f5xc-TenantOps/f5xc-tops-py-client)
 Python library for interacting with the F5 Distributed Cloud API.
 
-### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> f5xc-tops-py-common
+### <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="" height="25"/> [f5xc-tops-py-common](https://github.com/f5xc-TenantOps/f5xc-tops-py-common)
 Python library of common components used by workers. 
 This helps keep things DRY.
 
@@ -56,7 +56,7 @@ ArgoCD, once bootstrapped, deploys core components.
 Repo containing cloud infrastrucuture components (crossplane CRDs) and tenantOps infrastucture jobs (k8s jobs/crons).
 ArgoCD deploys these resources against the mgmt cluster.
 
-### <img src="https://github.com/kubernetes/community/blob/master/icons/png/resources/unlabeled/pod-128.png?raw=true" alt="" height="25"/> f5xc-tops-job-workers
+### <img src="https://github.com/kubernetes/community/blob/master/icons/png/resources/unlabeled/pod-128.png?raw=true" alt="" height="25"/> [f5xc-tops-job-workers](https://github.com/f5xc-TenantOps/f5xc-tops-job-workers)
 Containers and Lambdas used for tenantOps jobs.
 
 ### <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="" height="25"/> f5xc-tops-dashboards
