@@ -44,15 +44,15 @@ Python library for interacting with the F5 Distributed Cloud API.
 Python library of common components used by workers. 
 This helps keep things DRY.
 
-### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/d88b4e3b6e34a85f58778b7ef96e64edffff6823/logo/logo.svg" alt="" height="25"/> f5xc-tops-mgmt-cluster
+### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/d88b4e3b6e34a85f58778b7ef96e64edffff6823/logo/logo.svg" alt="" height="25"/> [f5xc-tops-mgmt-cluster](https://github.com/f5xc-TenantOps/f5xc-tops-mgmt-cluster)
 - [x] ArgoCD
-- [x] Crossplane
+- [x] HCP-terraform-operator
 - [x] Grafana stack - (grafana, prometheus, loki)
 
 Cluster Bootstrap (ArgoCD, secrets managment) and core components needed to deploy tenantOps cloud infra and jobs.
 ArgoCD, once bootstrapped, deploys core components.
 
-### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/d88b4e3b6e34a85f58778b7ef96e64edffff6823/logo/logo.svg" alt="" height="25"/> f5xc-tops-infra
+### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/d88b4e3b6e34a85f58778b7ef96e64edffff6823/logo/logo.svg" alt="" height="25"/> [f5xc-tops-infra](https://github.com/f5xc-TenantOps/f5xc-tops-infra)
 Repo containing cloud infrastrucuture components (crossplane CRDs) and tenantOps infrastucture jobs (k8s jobs/crons).
 ArgoCD deploys these resources against the mgmt cluster.
 
