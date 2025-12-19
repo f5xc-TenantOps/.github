@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/f5xc-TenantOps/.github/blob/main/xc-tops-logo-wide.jpg?raw=true" width="100%" style="border-radius: 15px;"/>
+  <img src="https://github.com/f5xc-TenantOps/.github/blob/main/xc-tops-logo-wide.jpg?raw=true" width="100%" />
 </p>
 
 # F5 Distributed Cloud Tenant Operations
